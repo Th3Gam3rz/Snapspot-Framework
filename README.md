@@ -10,3 +10,5 @@ The goal of Snapspot is to create modularity. The way the framework works is sim
 Using the Average Load Time Tester chrome extension with Force Refresh Enabled and all Snapspot Modules loaded: `0.095 seconds` for the Load Event to End.
 
 Using the `grid.html` example file.
+
+# 1.55KB
