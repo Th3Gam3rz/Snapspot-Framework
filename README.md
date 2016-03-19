@@ -11,4 +11,4 @@ Using the Average Load Time Tester chrome extension with Force Refresh Enabled a
 
 Using the `grid.html` example file.
 
-# 1.55KB
+# Total Framework Size: 1.55KB
