@@ -9,6 +9,8 @@ The goal of Snapspot is to create modularity. The way the framework is used is s
 # We use SASS!
 Snapspot is built using SASS (SCSS to be specific). Because we upload all of our original `.scss` files to this repository as well, this means that you can customise variables and recompile them into `.css` files with your own values! For example, if you aren't happy with the media query breakpoints that we use then you can just change the values of them! Or say that you want to change the default font. You can just change the variable `google-font` to a font that you like in the Google Web Fonts Library, and then recompile!
 
+_Tip: When customising the `google-font` variable, the value must be the value of the `family` variable from the URL you get from Google for your font. For example, the value you need from the Google Font URL `https://fonts.googleapis.com/css?family=Open+Sans` is `Open+Sans`!_
+
 # Current Speed
 Using the Average Load Time Tester chrome extension with Force Refresh Enabled and all Snapspot Modules loaded: `0.095 seconds` for the Load Event to End.
 
