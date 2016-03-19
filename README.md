@@ -6,6 +6,9 @@ There are tons of other CSS frameworks, and I mean **tons**. Most frameworks eit
 
 The goal of Snapspot is to create modularity. The way the framework is used is simple: You must use the `snapspot.core.css` file if you wish to use any other modules, and then you can just add them in as you please. Let's say that you are looking for a nice, easy-to-use responsive grid for your site. Snapspot has a module called `snapspot.grid.css`. Just include this and the core and then you can start using all of the features from the grid module! Snapspot allows you to speed up your website by removing unnecessary style sheets that you don't want or need.
 
+# We use SASS!
+Snapspot is built using SASS (SCSS to be specific). Because we upload all of our original `.scss` files to this repository as well, this means that you can customise variables and recompile them into `.css` files with your own values! For example, if you aren't happy with the media query breakpoints that we use then you can just change the values of them! Or say that you want to change the default font. You can just change the variable `google-font` to a font that you like in the Google Web Fonts Library, and then recompile!
+
 # Current Speed
 Using the Average Load Time Tester chrome extension with Force Refresh Enabled and all Snapspot Modules loaded: `0.095 seconds` for the Load Event to End.
 
