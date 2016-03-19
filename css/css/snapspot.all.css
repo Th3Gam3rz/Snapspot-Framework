@@ -101,12 +101,21 @@ a:hover {
 
 @media (max-width: 30.063em) {
   .row.mobile [class*='col-'], .row.mobile-wide [class*='col-'] {
-    width: 100%; } }
+    width: 100%; }
+
+  .row.mobile-justify {
+    text-align: justify; } }
 @media (min-width: 30.063em) and (max-width: 40.063em) {
   .row.mobile [class*='col-'], .row.mobile-wide [class*='col-'] {
-    width: 50%; } }
+    width: 50%; }
+
+  .row.mobile-justify {
+    text-align: justify; } }
 @media (min-width: 40.063em) and (max-width: 60.063em) {
   .row.mobile-wide [class*='col-'] {
-    width: 33.3%; } }
+    width: 33.3%; }
+
+  .row.mobile-wide.mobile-justify {
+    text-align: justify; } }
 
 /*# sourceMappingURL=snapspot.all.css.map */
