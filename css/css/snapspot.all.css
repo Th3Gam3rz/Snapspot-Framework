@@ -1,3 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol, li, dl, dt, dd, form, a, fieldset, input, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: 100%; }
+
+ul, ol {
+  list-style-type: none; }
+
+a, a:clicked {
+  color: blue; }
+
+a:hover {
+  color: darkblue; }
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol, li, dl, dt, dd, form, a, fieldset, input, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: 100%; }
+
+ul, ol {
+  list-style-type: none; }
+
+a, a:clicked {
+  color: blue; }
+
+a:hover {
+  color: darkblue; }
+
 .grid * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;

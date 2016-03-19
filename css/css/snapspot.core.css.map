@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAOQ,uEAA+D;AAEvE,iIAAkI;EAC9H,MAAM,EAAE,CAAC;EAAE,OAAO,EAAE,CAAC;EAAE,MAAM,EAAE,CAAC;EAAE,OAAO,EAAE,IAAI;EAC/C,WAAW,EAAE,8BAA8B;;AAG/C,yBAA0B;EACtB,SAAS,EAAE,IAAI;;AAGnB,MAAO;EACH,eAAe,EAAE,IAAI;;AAGzB,YAAa;EACT,KAAK,EAAE,IAAI;;AAGf,OAAQ;EACJ,KAAK,EAAE,QAAQ",
+"sources": ["../sass/snapspot.core.scss"],
 "names": [],
 "file": "snapspot.core.css"
 }
