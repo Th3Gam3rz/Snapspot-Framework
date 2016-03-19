@@ -1,0 +1,72 @@
+.grid * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.row {
+  width: 100%; }
+
+.row:before, .row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+[class*='col-'] {
+  width: 8.3%;
+  min-height: 1px;
+  float: left;
+  padding: 0px 15px;
+  word-break: break-all; }
+
+.col-debug {
+  border-left: solid thick black;
+  border-right: solid thick black;
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.col-one, .col-1 {
+  width: 8.3%; }
+
+.col-two, .col-2 {
+  width: 16.6%; }
+
+.col-three, .col-3 {
+  width: 25%; }
+
+.col-four, .col-4 {
+  width: 33.3%; }
+
+.col-five, .col-5 {
+  width: 41.6%; }
+
+.col-six, .col-6 {
+  width: 50%; }
+
+.col-seven, .col-8 {
+  width: 58.3%; }
+
+.col-eight, .col-8 {
+  width: 66.6%; }
+
+.col-nine, .col-9 {
+  width: 75%; }
+
+.col-ten, .col-10 {
+  width: 83.3%; }
+
+.col-eleven, .col-11 {
+  width: 91.6%; }
+
+.col-twelve, .col-12, .col-full {
+  width: 100%; }
+
+@media (max-width: 30.063em) {
+  .row.mobile [class*='col-'], .row.mobile-wide [class*='col-'] {
+    width: 100%; } }
+@media (min-width: 30.063em) and (max-width: 40.063em) {
+  .row.mobile [class*='col-'], .row.mobile-wide [class*='col-'] {
+    width: 50%; } }
+@media (min-width: 40.063em) and (max-width: 60.063em) {
+  .row.mobile-wide [class*='col-'] {
+    width: 33.3%; } }
+
+/*# sourceMappingURL=snapspot.all.css.map */
